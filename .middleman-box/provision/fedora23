@@ -1,0 +1,9 @@
+#!/bin/bash
+# {author: Paulo Jeronimo; email: paulojeronimo@gmail.com; twitter: @paulojeronimo}
+#
+# Script para provisionamento de um ambiente Fedora 23
+# Utilizado para instalar bibliotecas e dependências necessárias a execução das ferramentas Asciidoctor e Middleman
+set +x
+
+echo "Instalando pacotes extras ..."
+sudo dnf -y install npm
